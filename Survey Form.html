@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Survey Form.css">
+    <title>Survey Form</title>
+</head>
+<body>
+    <main>
+        <h1 id="title">
+          Faculty of Engineering and Technology(FET)     <br>Survey Form
+        </h1>
+        <p id="description">This is for you to give your own idea on how you want the FET Platform to look like. Thank you.</p>
+        <form id="survey-form">
+          <div class="form-group">
+          <label id="name-label">Name</label><br>
+          <input type="text" placeholder="Enter your name" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+          <label id="matricule-label">Matricule</label><br>
+          <input type="text" placeholder=".e.g FE12A021" id="matricule" name="matricule" required>
+          </div>
+          <div class="form-group">
+            <label>Gender</label><br>
+            <label for="Male">
+            <input type="radio" name="gender" id="Male" value="male" class="input-radio" checked>Male</label>
+            <label for="Female">
+              <input type="radio" name="gender" id="Female" value="female" class="input-radio">Female</label>
+          </div>
+          <div class="form-group">
+          <label id="age-label">Age(optional)</lable><br>
+          <input type="number" placeholder="Age" id="age" name="age" min="16" max="30">
+          </div>
+          <div class="form-group">
+          <label id="email-label">Email</label><br>
+          <input type="email" placeholder="Email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+          <label id="number-label">Telephone(optional)</lable><br>
+          <input placeholder=".e.g +237********" id="number" type="number" name="telephone">
+          </div>
+          <div class="form-group">
+          <label>Major</label><br>
+          <select name="field" id="dropdown" class="form-control">
+            <option>Select Major</option>
+              <option>Computer Engineering(Software)</option>
+              <option>Computer Engineering(Network)</option>
+              <option>Electrical Engineering(Power Systems)</option>
+              <option>Electrical Engineering(Telecommunications)</option>
+      </select>
+            </div>
+            <div class="form-group">
+            <label>In what level are you?</label><br>
+          <select name="field" id="dropdown" class="form-control">
+            <option>Select level</option>
+            <option>200</option>
+            <option>300</option>
+            <option>400</option>
+            <option>500</option>
+            <option>550</option>
+      </select>
+          </div>
+          <p>Ok, now we go to real business.</p>
+          <div class="form-group">
+            <label>Choose the features you'll appreciate it's presence in our platform</label><br>
+            <label for="Past question"><input type="checkbox" name="features" id="Past question" value="Past question" class="input-checkbox">Past questions port</label><br>
+            <label for="Tutorials"><input type="checkbox" name="features" id="Tutorials" value="Tutorials" class="input-checkbox">Tutorials port</label><br>
+            <label for="Lectures"><input type="checkbox" name="features" id="Lectures" value="Lectures" class="input-checkbox">Lectures</label><br>
+            <label for="Timetable"><input type="checkbox" name="features" id="Timetable" value="Timetable" class="input-checkbox">Timetable</label><br>
+            <label for="Others"><input type="checkbox" name="features" id="Others" value="Others" class="input-checkbox">Others</label><br>
+          </div>
+          <div class="form-group">
+          <label id="name-label">If you've got other ideas write them in the box below</label><br>
+          <textarea id="story" name="story"
+                rows="5" cols="80" placeholder="Additional ideas...">
+      </textarea>
+          </div>
+          <button type="submit" id="submit">Submit</button>
+        </form>
+      </main>
+</body>
+</html>
