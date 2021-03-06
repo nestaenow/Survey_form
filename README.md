@@ -1,4 +1,5 @@
 # Survey_form
 <i>check out my survey form. Its quite basic but I'm getting there. How does it look? Fork and modify😁😊</i>
 <h2>Visual View</h2>
-<img src="![Survey Form](https://user-images.githubusercontent.com/60319503/110202540-974cf100-7e69-11eb-9734-37906954094b.JPG)">
+
+![Survey Form](https://user-images.githubusercontent.com/60319503/110203043-3377f780-7e6c-11eb-8d2a-7c17bdc6112a.JPG)
