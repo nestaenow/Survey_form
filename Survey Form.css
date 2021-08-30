@@ -52,14 +52,14 @@ button {
   cursor: pointer;
   border: none;
 }
-.input-radio, .input-checkbox {
+/* .input-radio, .input-checkbox {
   display: inline-block;
   padding-top: 0.1em;
   margin-right: 0.625rem;
   min-height: 1rem;
   min-width: 1rem;
   width: min-content;
-}
+} */
 input, button, select, textarea {
   margin: 0;
   font-family: inherit;
